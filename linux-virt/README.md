@@ -48,6 +48,10 @@ virt-install:
 # Phase 2 – QEMU Fundamentals
 
 ## 2. What is QEMU?
+    - quick emulator
+    - use dynamic binary translation
+    - since each instruction is translated, can run arm based on intel processor
+    - translation caused 10 - 100 x overhead
 
 Understand the difference between:
 
