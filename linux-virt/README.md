@@ -61,6 +61,10 @@ Understand the difference between:
 QEMU alone = full emulation (slow)
 QEMU + KVM = hardware-accelerated virtualization (fast)
 
+*workflow*
+1. Qemu boots up and ask kernel to open /dev/kvm
+2. kvm handles cpu intensive tasks
+3. Qemu take over I/O processes
 ---
 
 ## 3. Install and Verify KVM
